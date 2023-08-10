@@ -6,19 +6,25 @@ $(document).ready(function(){
    
    
    
-    let hh =$(".slides div").height();
-    let dir =-1
+    let hh =$(".slides div").width();
+    let dir =-1;
 
 
 
+
+// setInterval(function(){
+//     $(".slides").animate({"marginLeft":hh*dir},500,function(){
+//         $(".slides div").eq(0).appendTo(".slides");
+//         $(".slides").css({"marginLeft": 0}) })
+//         ,3000})
 
 setInterval(function(){
-    $(".slides").animate({"marginTop":hh*dir},9000,function(){
+    $(".slides").animate({"marginLeft":hh*dir},550,function(){
         $(".slides div").eq(0).appendTo(".slides");
-        $(".slides").css({"marginTop": 0}) })
-        ,3000})
-
-
+        $(".slides").css({"marginLeft":0})
+    }
+)
+},5500)
 
 
 
