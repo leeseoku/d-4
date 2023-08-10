@@ -99,7 +99,7 @@ a{text-decoration: none; color: #333;}
 }
 .content>li>ul>li>a>span{margin: 0 0 0 1rem;}
 
-.slide{opacity: 0; transition: 0.5s ease-in-out;}
+
 .opn{opacity: 0;}
 .op{opacity: 1 !important;}
 
@@ -134,3 +134,7 @@ a{text-decoration: none; color: #333;}
     right: 0.5rem;
     bottom: 0.5rem;
 }
+
+
+.slides{height: 10000px;}
+.ofh{overflow: hidden;}
